@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4cb4c5cf90794e5bafccb417c189f300" Name="Diagram1" ZoomLevel="139">
+        <EntityTypeShape EntityType="QLNHANSUModel.tb_BANGCONG" Width="1.5" PointX="5.25" PointY="12" />
+        <EntityTypeShape EntityType="QLNHANSUModel.tb_BAOHIEM" Width="1.5" PointX="5.125" PointY="20.375" />
+        <EntityTypeShape EntityType="QLNHANSUModel.tb_CHUCVU" Width="1.5" PointX="0.75" PointY="15.75" />
+        <EntityTypeShape EntityType="QLNHANSUModel.tb_CONGTY" Width="1.5" PointX="0.75" PointY="13.25" />
+        <EntityTypeShape EntityType="QLNHANSUModel.tb_DANTOC" Width="1.5" PointX="10.625" PointY="5.5" />
+        <EntityTypeShape EntityType="QLNHANSUModel.tb_PHONGBAN" Width="1.5" PointX="0.75" PointY="20.375" />
+        <EntityTypeShape EntityType="QLNHANSUModel.tb_TANGCA" Width="1.5" PointX="8.875" PointY="8.25" />
+        <EntityTypeShape EntityType="QLNHANSUModel.tb_TONGIAO" Width="1.5" PointX="8.875" PointY="5.5" />
+        <EntityTypeShape EntityType="QLNHANSUModel.tb_TRINHDO" Width="1.5" PointX="0.75" PointY="18" />
+        <EntityTypeShape EntityType="QLNHANSUModel.tb_UNGLUONG" Width="1.5" PointX="0.875" PointY="7.75" />
+        <EntityTypeShape EntityType="QLNHANSUModel.tp_BOPHAN" Width="1.5" PointX="0.75" PointY="11.25" />
+        <EntityTypeShape EntityType="QLNHANSUModel.tb_HOPDONG" Width="1.75" PointX="2.875" PointY="3.125" />
+        <EntityTypeShape EntityType="QLNHANSUModel.tb_KHENTHUONG_KYLUAT" Width="2.375" PointX="7" PointY="16.625" />
+        <EntityTypeShape EntityType="QLNHANSUModel.tb_NHANVIEN_DIEUCHUYEN" Width="2.375" PointX="16" PointY="4.5" />
+        <EntityTypeShape EntityType="QLNHANSUModel.tb_NHANVIEN" Width="1.5" PointX="3.125" PointY="10.75" />
+        <AssociationConnector Association="QLNHANSUModel.FK_tb_BANGCONG_tb_NHANVIEN" />
+        <AssociationConnector Association="QLNHANSUModel.FK_tb_BAOHIEM_tb_NHANVIEN" />
+        <AssociationConnector Association="QLNHANSUModel.FK_tb_NHANVIEN_tb_CHUCVU" />
+        <AssociationConnector Association="QLNHANSUModel.FK_tb_NHANVIEN_tb_CONGTY" />
+        <AssociationConnector Association="QLNHANSUModel.FK_tb_HOPDONG_tb_NHANVIEN" />
+        <AssociationConnector Association="QLNHANSUModel.FK_tb_KHENTHUONG_KYLUAT_tb_NHANVIEN" />
+        <AssociationConnector Association="QLNHANSUModel.FK_tb_NHANVIEN_tb_PHONGBAN" />
+        <AssociationConnector Association="QLNHANSUModel.FK_tb_NHANVIEN_tb_TRINHDO" />
+        <AssociationConnector Association="QLNHANSUModel.FK_tb_NHANVIEN_tp_BOPHAN" />
+        <AssociationConnector Association="QLNHANSUModel.FK_tb_TANGCA_tb_NHANVIEN" ManuallyRouted="false" >
+        </AssociationConnector>
+        <AssociationConnector Association="QLNHANSUModel.FK_tb_UNGLUONG_tb_NHANVIEN" />
+        <EntityTypeShape EntityType="QLNHANSUModel.tb_NHANVIEN_THOIVIEC" Width="2.375" PointX="19.125" PointY="4.625" />
+        <EntityTypeShape EntityType="QLNHANSUModel.tb_NHANVIEN_NANGLUONG" Width="2.25" PointX="13.75" PointY="8.25" />
+        <EntityTypeShape EntityType="QLNHANSUModel.tb_LOAICA" Width="1.5" PointX="6.75" PointY="4.75" />
+        <AssociationConnector Association="QLNHANSUModel.FK_tb_TANGCA_tb_LOAICA" />
+        <EntityTypeShape EntityType="QLNHANSUModel.tb_LOAICONG" Width="1.5" PointX="7.625" PointY="12.125" />
+        <AssociationConnector Association="QLNHANSUModel.FK_tb_BANGCONG_tb_LOAICONG" />
+        <EntityTypeShape EntityType="QLNHANSUModel.tb_BANGCONG_NHANVIEN_CHITIET" Width="2.75" PointX="16.25" PointY="8.25" />
+        <EntityTypeShape EntityType="QLNHANSUModel.tb_KYCONG" Width="1.5" PointX="19.125" PointY="8.25" />
+        <EntityTypeShape EntityType="QLNHANSUModel.tb_KYCONGCHITIET" Width="1.75" PointX="21" PointY="8.25" />
+        <EntityTypeShape EntityType="QLNHANSUModel.tb_User" Width="1.5" PointX="13.875" PointY="5.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
